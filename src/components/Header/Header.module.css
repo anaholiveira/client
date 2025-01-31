@@ -1,0 +1,140 @@
+.header {
+    padding: 15px;
+    font-size: 28px;
+    font-family: 'Nerko One', cursive;
+    background-color: rgba(11, 176, 182, 0.863);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    transition: padding 0.3s ease;
+}
+
+.logoDiv {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.logo {
+    display: flex;
+    padding: 15px;
+    margin-left: 20px;
+    transition: .2s;
+}
+
+.menuLeft {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menuIcon {
+    display: block;
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    transition: transform 0.3s ease;
+}
+
+.nav {
+    display: none;
+    justify-content: center;
+    gap: 20px;
+    font-size: 30px;
+    font-family: 'Nerko One', cursive;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.nav.mostrarMenu {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px 0;
+}
+
+.headerExpandido {
+    padding: 30px 10px;
+}
+
+.ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 15px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.gradient {
+    position: relative;
+    display: inline-block;
+    background-image: linear-gradient(to bottom, white ,#55faef);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+.gradient:hover {
+    transform: scale(1.2);
+}
+
+@media (max-width: 600px) {
+    .logo {
+        margin-left: 50px;
+        width: 100px;
+        height: 80px;
+    }
+
+    .menuLeft {
+        position: absolute;
+        top: 15px;
+        left: 15px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav {
+        flex-direction: column;
+        display: none;
+    }
+
+    .nav.mostrarMenu {
+        display: flex;
+        transform: translateY(30px);
+    }
+
+    .headerExpandido {
+        padding: 30px 10px;
+    }
+    
+    .esconderLogo {
+        display: none;
+    }
+}
+
+@media (min-width: 601px) {
+    .logoDiv {
+        display: flex;
+        flex-grow: 1;
+    }
+
+    .nav {
+        display: flex;
+        gap: 50px;
+        justify-content: center;
+    }
+
+    .menuIcon {
+        display: none;
+    }
+
+    .headerExpandido {
+        padding: 5px; 
+    }
+}
