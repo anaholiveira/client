@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div className={styles.page}>
-      <h1 className={styles.titulo}> Clinica </h1>
+      <h1 className={styles.titulo}> Clínica </h1>
 
     </div>
   );

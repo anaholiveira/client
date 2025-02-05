@@ -26,6 +26,9 @@ export default function Header() {
 
             <nav className={`${styles.nav} ${menuAberto ? styles.mostrarMenu : ''}`}>
                 <ul className={styles.ul}>
+                <li className={styles.gradient}>
+                        <Link className={styles.links} href="/">Home</Link>
+                    </li>
                     <li className={styles.gradient}>
                         <Link className={styles.links} href="/">Médico</Link>
                     </li>

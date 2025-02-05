@@ -2,7 +2,7 @@
     padding: 15px;
     font-size: 28px;
     font-family: 'Nerko One', cursive;
-    background-color: rgba(11, 176, 182, 0.863);
+    background-color: rgba(16, 196, 196, 0.863);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -44,7 +44,7 @@
     display: none;
     justify-content: center;
     gap: 20px;
-    font-size: 30px;
+    font-size: 28px;
     font-family: 'Nerko One', cursive;
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
@@ -86,8 +86,8 @@
 @media (max-width: 600px) {
     .logo {
         margin-left: 50px;
-        width: 100px;
-        height: 80px;
+        width: 90px;
+        height: 70px;
     }
 
     .menuLeft {
