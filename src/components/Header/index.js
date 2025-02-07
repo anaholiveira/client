@@ -33,7 +33,7 @@ export default function Header() {
                         <Link className={styles.links} href="/medicos">Médicos</Link>
                     </li>
                     <li className={styles.gradient}>
-                        <Link className={styles.links} href="/">Paciente</Link>
+                        <Link className={styles.links} href="/pacientes">Pacientes</Link>
                     </li>
                     <li className={styles.gradient}>
                         <Link className={styles.links} href="/">Consulta</Link>

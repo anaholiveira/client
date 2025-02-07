@@ -90,7 +90,6 @@
         width: 90px;
         height: 70px;
     }
-
     .menuLeft {
         position: absolute;
         top: 15px;
@@ -99,21 +98,17 @@
         align-items: center;
         gap: 10px;
     }
-
     .nav {
         flex-direction: column;
         display: none;
     }
-
     .nav.mostrarMenu {
         display: flex;
         transform: translateY(30px);
     }
-
     .headerExpandido {
         padding: 30px 10px;
     }
-    
     .esconderLogo {
         display: none;
     }
@@ -124,17 +119,14 @@
         display: flex;
         flex-grow: 1;
     }
-
     .nav {
         display: flex;
         gap: 50px;
         justify-content: center;
     }
-
     .menuIcon {
         display: none;
     }
-
     .headerExpandido {
         padding: 5px; 
     }
