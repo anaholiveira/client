@@ -4,18 +4,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Satisfy&display=swap'); /* Satisfy, cursive*/
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
-  --cor1: #FA58AC;
-  --cor2: #F5A9D0;
-  --cor3: rgb(214, 0, 118);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --cor1: white;
+  --cor2: black;
+  --cor3: rgba(3, 126, 126, 0.836);
+  --cor4: #7feee5da;
+  --cor5: #e5fffd;
 }
 
 html,
@@ -28,7 +21,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(#7feee5da 30%, #e5fffd 70%);
+  background: linear-gradient(#7feee5da 10%, #e5fffd 90%);
   background-repeat: no-repeat;
   min-height: 100vh;
 }
@@ -46,11 +39,4 @@ a {
 
 h1 {
   text-align: center;
-}
-
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
 }

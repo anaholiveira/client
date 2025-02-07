@@ -2,12 +2,13 @@
     padding: 15px;
     font-size: 28px;
     font-family: 'Nerko One', cursive;
-    background-color: rgba(16, 196, 196, 0.863);
+    background-color: rgba(3, 126, 126, 0.836);
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: relative;
     transition: padding 0.3s ease;
+    box-shadow: 0 5px 5px rgba(116, 116, 116, 0.836);
 }
 
 .logoDiv {

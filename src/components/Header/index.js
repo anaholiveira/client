@@ -30,7 +30,7 @@ export default function Header() {
                         <Link className={styles.links} href="/">Home</Link>
                     </li>
                     <li className={styles.gradient}>
-                        <Link className={styles.links} href="/">Médico</Link>
+                        <Link className={styles.links} href="/medicos">Médicos</Link>
                     </li>
                     <li className={styles.gradient}>
                         <Link className={styles.links} href="/">Paciente</Link>
