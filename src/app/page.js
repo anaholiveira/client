@@ -9,7 +9,7 @@ export default function Home() {
 
         <p className={styles.paragrafo}>Nossa equipe de profissionais altamente qualificados está pronta para cuidar da sua saúde com dedicação e excelência. Oferecemos um atendimento humanizado, tecnologia de ponta e uma ampla gama de especialidades médicas para garantir seu bem-estar.</p>
         <button className={styles.button} type="submit">
-          <Link href="/agendar" className={styles.agendarConsulta}>Agende consulta</Link>
+          <Link href="/" className={styles.agendarConsulta}>Agende consulta</Link>
         </button>
         
       </section>
