@@ -3,41 +3,32 @@
   font-size: 40px;
   font-family: Nerko One, cursive;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  margin-top: 30px;
 }
 
-.secao {
-  text-align: center;
-  padding: 40px 20px;
+/*.secaoTabela {
+  padding: 20px;
   background-color: var(--cor1);
   box-shadow: 0 5px 5px var(--cor1);
-}
-
-.paragrafo {
-  font-size: 22px;
-  color: #34495e;
-  line-height: 1.9;
-  max-width: 900px;
   margin: 0 auto;
-  font-family: Indie Flower, cursive ;
-  font-weight: bold;
-}
+} */
 
-.button {
+.buttonBuscar {
   display: inline-block;
   margin-top: 20px;
-  padding: 10px 22px;
+  padding: 10px 15px;
   background-color: #54c5bcda;
   color: var(--cor1);
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 200;
   text-decoration: none;
-  border-radius: 20px;
+  border-radius: 15px;
   transition: background .3s;
   border: none;
   font-family: Kalam, cursive;
 }
 
-.button:hover {
+.buttonBuscar:hover {
   background-color: var(--cor3);
 }
