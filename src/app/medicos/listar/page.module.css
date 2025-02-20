@@ -7,16 +7,16 @@
   margin-top: 30px;
 }
 
-/*.secaoTabela {
+.secaoTabela {
   padding: 20px;
-  background-color: var(--cor1);
-  box-shadow: 0 5px 5px var(--cor1);
+  background-color:rgba(255, 255, 255, 0.699);
   margin: 0 auto;
-} */
+  width: 70vw;
+  border-radius: 20px;
+} 
 
 .buttonBuscar {
   display: inline-block;
-  margin-top: 20px;
   padding: 10px 15px;
   background-color: #54c5bcda;
   color: var(--cor1);
@@ -31,4 +31,48 @@
 
 .buttonBuscar:hover {
   background-color: var(--cor3);
+}
+
+.tableMedicos{
+  border-collapse: collapse;
+  border: solid, 1px var(--cor2);
+  background-color: var(--cor1);
+  width: 60vw;
+  margin: auto;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 10px rgb(209, 209, 209);
+}
+
+.thead{
+  height: 50px;
+  background-color: var(--cor3);
+}
+
+.th{
+  color: var(--cor1);
+  border: solid, 1px var(--cor1);
+  font-size: 24px;
+  font-family: Nerko One, senrif;
+  text-align: left;
+  padding: 10px;
+}
+
+.td{
+  border: solid, 1px var(--cor2);
+  font-size: 18px;
+  padding: 12px;
+}
+
+.tr{
+  border: solid, 1px var(--cor2);
+}
+
+.tableMedicos .tr:nth-child(even){
+  background-color:rgb(235, 235, 235);
+}
+
+.tableMedicos .tbody .tr:hover {
+  background-color: #54c5bc57;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
 }

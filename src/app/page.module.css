@@ -14,7 +14,7 @@
 }
 
 .paragrafo {
-  font-size: 22px;
+  font-size: 24px;
   color: #34495e;
   line-height: 1.9;
   max-width: 900px;
@@ -25,7 +25,7 @@
 
 .button {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 30px;
   padding: 10px 22px;
   background-color: #54c5bcda;
   color: var(--cor1);
