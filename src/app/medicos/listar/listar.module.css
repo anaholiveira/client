@@ -1,0 +1,165 @@
+.titulo {
+  color: var(--cor3);
+  font-size: 40px;
+  font-family: Nerko One, cursive;
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.secaoTabela {
+  padding: 20px;
+  background-color:rgba(255, 255, 255, 0.699);
+  margin: 0 auto;
+  width: 80vw;
+  border-radius: 15px;
+  overflow-y: auto; 
+} 
+
+.buttonBuscar {
+  display: inline-block;
+  padding: 8px 13px;
+  background-color: #54c5bcda;
+  color: var(--cor1);
+  font-size: 18px;
+  font-weight: 200;
+  text-decoration: none;
+  border-radius: 15px;
+  transition: background .3s;
+  border: none;
+  font-family: Kalam, cursive;
+  margin-bottom: 10px;
+}
+
+.inputBuscar {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  font-size: 16px;
+  width: 250px;
+  margin-left: 10px;
+  font-family: Kalam, cursive;
+}
+
+.msgCarregando, .msgNaoEncontrado{
+  font-family: Kalam, cursive;
+  font-size: 18px;
+}
+
+.buttonBuscar:hover {
+  background-color: var(--cor3);
+}
+
+.tableMedicos{
+  border-collapse: collapse;
+  background-color: var(--cor1);
+  width: 60vw;
+  margin: auto;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 10px rgb(209, 209, 209);
+  overflow-x: auto;
+  width: 100%;
+}
+
+.thead{
+  height: 50px;
+  background-color: var(--cor3);
+}
+
+.th{
+  color: var(--cor1);
+  border: solid, 1px rgba(255, 255, 255, 0.699);
+  font-size: 24px;
+  font-family: Nerko One, senrif;
+  text-align: left;
+  padding: 10px;
+}
+
+.td{
+  border: solid, 1px rgba(160, 160, 160, 0.699);
+  font-size: 18px;
+  padding: 12px;
+}
+
+.tr{
+  border: solid, 1px var(--cor2);
+}
+
+.tableMedicos .tr:nth-child(even){
+  background-color:rgb(241, 241, 241);
+}
+
+.tableMedicos .tbody .tr:hover {
+  background-color: #5bd4ca42;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+@media (min-width: 769px) and (max-width: 1050px) {
+  .secaoTabela {
+    width: 100vw;
+  }
+  .tableMedicos {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  .buttonBuscar {
+    margin-left: 0;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+
+  .inputBuscar {
+    width: 250px;
+    margin-left: 10px;
+  }
+
+  .secaoTabela {
+    width: 100vw;
+  }
+
+  .tableMedicos {
+    max-width: 100%;
+  }
+
+  .th {
+    font-size: 20px; /* Menor fonte */
+    padding: 8px;    /* Menor padding */
+  }
+
+  .td {
+    font-size: 16px; /* Menor fonte */
+    padding: 8px;    /* Menor padding */
+  }
+}
+
+@media (max-width: 480px) {
+  .buttonBuscar {
+    margin-left: 0;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+
+  .inputBuscar {
+    width: 60%; 
+    margin-left: 10px;
+  }
+
+  .secaoTabela {
+    width: 100vw;
+    padding: 15px;
+    min-height: 300px; /* Altura mínima para telas pequenas */
+  }
+
+  .th {
+    font-size: 16px; /* Menor fonte */
+    padding: 6px;    /* Menor padding */
+  }
+
+  .td {
+    font-size: 14px; /* Menor fonte */
+    padding: 6px;    /* Menor padding */
+  }
+}
