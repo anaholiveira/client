@@ -2,7 +2,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 
 export const metadata = {
-  title: 'Projeto Clínica',
+  title: 'Clínica',
   description: 'Projeto feito durante as disciplinas de Back-End e Front-End',
   charset: 'UTF-8',
   author: 'Ana Gabriely de Oliveira',
