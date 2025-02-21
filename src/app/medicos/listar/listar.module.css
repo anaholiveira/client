@@ -110,28 +110,23 @@
     margin-bottom: 15px;
     font-size: 16px;
   }
-
   .inputBuscar {
     width: 250px;
     margin-left: 10px;
   }
-
   .secaoTabela {
     width: 100vw;
   }
-
   .tableMedicos {
     max-width: 100%;
   }
-
   .th {
-    font-size: 20px; /* Menor fonte */
-    padding: 8px;    /* Menor padding */
+    font-size: 20px;
+    padding: 8px;
   }
-
   .td {
-    font-size: 16px; /* Menor fonte */
-    padding: 8px;    /* Menor padding */
+    font-size: 16px;
+    padding: 8px;
   }
 }
 
@@ -141,25 +136,21 @@
     margin-bottom: 15px;
     font-size: 14px;
   }
-
   .inputBuscar {
     width: 60%; 
     margin-left: 10px;
   }
-
   .secaoTabela {
     width: 100vw;
     padding: 15px;
-    min-height: 300px; /* Altura mínima para telas pequenas */
+    min-height: 300px;
   }
-
   .th {
-    font-size: 16px; /* Menor fonte */
-    padding: 6px;    /* Menor padding */
+    font-size: 16px;
+    padding: 6px;
   }
-
   .td {
-    font-size: 14px; /* Menor fonte */
-    padding: 6px;    /* Menor padding */
+    font-size: 14px;
+    padding: 6px;
   }
 }
