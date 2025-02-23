@@ -41,8 +41,7 @@
   font-family: Kalam, cursive;
 }
 
-.msgCarregando,
-.msgNaoEncontrado {
+.msgCarregando, .msgNaoEncontrado {
   font-family: Kalam, cursive;
   font-size: 18px;
 }
@@ -51,7 +50,7 @@
   background-color: var(--cor3);
 }
 
-.tableMedicos {
+.tablePacientes {
   border-collapse: collapse;
   background-color: var(--cor1);
   width: 60vw;
@@ -86,11 +85,11 @@
   border: solid, 1px var(--cor2);
 }
 
-.tableMedicos .tr:nth-child(even) {
+.tablePacientes .tr:nth-child(even) {
   background-color: rgb(241, 241, 241);
 }
 
-.tableMedicos .tbody .tr:hover {
+.tablePacientes .tbody .tr:hover {
   background-color: #5bd4ca42;
   cursor: pointer;
   transition: background-color 0.2s ease;
@@ -101,7 +100,7 @@
     width: 100vw;
   }
 
-  .tableMedicos {
+  .tablePacientes {
     max-width: 100%;
   }
 }
@@ -122,7 +121,7 @@
     width: 100vw;
   }
 
-  .tableMedicos {
+  .tablePacientes {
     max-width: 100%;
   }
 
@@ -151,7 +150,7 @@
 
   .secaoTabela {
     width: 100vw;
-    padding: 15px;
+    padding: 10px;
     min-height: 300px;
   }
 
